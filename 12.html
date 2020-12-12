@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <style>
+        *{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ranchers', cursive;
+}
+
+.container{
+    width: 900px;
+    border: 3px solid red;
+    margin: auto;
+    background-color: rgb(250, 190, 137);
+}
+
+.items{
+    border: 2px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background: rgb(248, 238, 238);
+}
+
+#fruits{
+    float: left;
+    width: 49%;
+}
+
+#computer{
+    float: left;
+    width: 49%;
+}
+
+#stationary{
+    clear: both;
+    width: 99%;
+}
+
+h1{
+    margin: 20px auto;
+    width: fit-content;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>aling</h1>
+
+        <div id="fruits" class="items">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga atque ducimus itaque provident illo ullam assumenda illum ea amet, dolorem dolores iure. Inventore ratione, laudantium porro esse consectetur nostrum. Architecto.</p>
+        </div>
+
+        <div id="computer" class="items">
+            <h3>computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga atque ducimus itaque provident illo ullam assumenda illum ea amet, dolorem dolores iure. Inventore ratione, laudantium porro esse consectetur nostrum. Architecto.</p>
+        </div>
+
+        <div id="stationary" class="items">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga atque ducimus itaque provident illo ullam assumenda illum ea amet, dolorem dolores iure. Inventore ratione, laudantium porro esse consectetur nostrum. Architecto.</p>
+        </div>
+
+        
+        <div id="glass" class="items">
+            <h3>glass</h3>
+            <p id="glasspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga atque ducimus itaque provident illo ullam assumenda illum ea amet, dolorem dolores iure. Inventore ratione, laudantium porro esse consectetur nostrum. Architecto.</p>
+        </div>
+
+    </div>
+</body>
+</html>
